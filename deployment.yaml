@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: agilebd2023
-          image: mirajehossain/agilebd2023:latest
+          image: sjsakib/agile-dhaka:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
