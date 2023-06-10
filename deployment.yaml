@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: agilebd2023-sakib
-          image: sjsakib/agile-dhaka:latest
+          image: sjsakib/scrum-dhaka:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 3000
