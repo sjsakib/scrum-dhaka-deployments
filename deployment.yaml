@@ -1,19 +1,19 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name:  agilebd2023
+  name:  agilebd2023-sakib
   namespace: demo
 spec:
   selector:
     matchLabels:
-      app: agilebd2023
+      app: agilebd2023-sakib
   template:
     metadata:
       labels:
-        app: agilebd2023
+        app: agilebd2023-sakib
     spec:
       containers:
-        - name: agilebd2023
+        - name: agilebd2023-sakib
           image: sjsakib/agile-dhaka:latest
           imagePullPolicy: Always
           ports:
