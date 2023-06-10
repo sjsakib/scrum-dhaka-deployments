@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name:  agilebd2023
+  name:  agilebd2023-sakib
   namespace: demo
 spec:
   ports:
@@ -10,4 +10,4 @@ spec:
       protocol: TCP
   type: NodePort
   selector:
-    app: agilebd2023
+    app: agilebd2023-sakib
